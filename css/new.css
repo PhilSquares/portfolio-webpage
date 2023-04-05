@@ -54,8 +54,8 @@ img {
 }
 
 .back {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  /* -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg); */
   opacity: 0;
   padding-top: 60px;
   -webkit-backface-visibility: visible;
@@ -79,10 +79,10 @@ img {
           transform-style: preserve-3d;
 }
 
-.card:hover {
+/* .card:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
-}
+} */
 
 .card:hover .front {
   opacity: 0;
